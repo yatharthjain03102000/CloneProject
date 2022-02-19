@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.menu{
+    background-color: rgb(36, 109, 114);
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0%;
+    /* text-align: center; */
+    /* padding: 1px,10px,100px,400px; */
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 10px;
+    /* height: 100px; */
+    position: fixed;
+    left: 0;
+    right: 0;
+
+}
+.menu > div{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin: 5px;
+    flex: auto;
+    border: 1px white solid;
+    /* border-radius: 50   %; */
+    /* margin: 0,10px,0,10px; */
+}
+.heading{
+    background: url(assets/header_img.jpg);
+    background-size: cover;
+    /* padding-top:50px;
+    padding-bottom: 200px; */
+    text-align: center;
+    color: white;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.3);
+    padding-top:150px;
+    padding-bottom: 150px;
+
+    
+}
+.box_1{
+    /* background-color: whitesmoke; */
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.box_2{
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.item_box{
+    background-color: whitesmoke;
+    margin-right: 40px;
+    margin-left: 40px;
+    /* padding-left: 10px; */
+    /* padding-right: 10px; */
+}
+#a1 {
+    /* background-image:url(assets/a1.jpg); */
+    /* background-size: cover; */
+    /* height:200px; */
+    width: 100%;
+}
+#a2 {
+    /* background-image:url(assets/a2.jpg);
+    background-size: cover;
+    height: 200px; */
+    width: 100%;
+
+}
+#a3 {
+    background-image:url(assets/a3.jpg);
+    background-size: cover;
+    height: 200px;
+}
+#b1{
+    background-image:url(assets/b1.jpg);
+    background-size: cover;
+    height: 300px;
+
+}
+#b2{
+    background-image:url(assets/b2.jpg);
+    background-size: cover;
+    height: 300px;
+
+}
+
+#background{
+    background-image: url(assets/bg-2.jpg);
+    background-attachment:fixed;
+    background-size: cover;
+    width: 100%;
+    /* left:0; */
+    /* right: 0; */
+    min-height:250px;
+}
